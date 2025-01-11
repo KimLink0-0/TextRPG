@@ -12,18 +12,11 @@ int main()
 	Game->Init();
 
 
-	// IsGameEnded() 게임이 진행중이면 false,    !false = true
 	while (!Game->IsGameEnded())
 	{
 		Game->Tick();
 	}
 	
-
-	
-
-
-
-
 
 
 	return 0;
