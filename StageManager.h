@@ -41,7 +41,6 @@ private:
 	}
 
 
-	// GameMain �� StageManager �� private �� ���� �� �� �ְ�
 	friend class GameMain;
 
 
@@ -50,7 +49,6 @@ private:
 
 	
 
-	// ��� ���� 
 	shared_ptr<Stage> CurrentStage;
 
 
